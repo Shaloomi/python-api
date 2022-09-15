@@ -28,6 +28,9 @@ If we only wanted to add the `WeatherPy.ipynb` file to GitHub, we could type `gi
 
 Before we add our files to GitHub, let's add `api_keys.py` to the `.gitignore` file. Use the following instructions:
 
+
+
+
 1. Open your `python-api-challenge` GitHub folder in VS Code.
 
 2. Open the `.gitignore` file, and on the first line, type the following code:
@@ -151,3 +154,14 @@ As final considerations:
 - - -
 
 © 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+Observable Trends and Insights
+The findings of these analysis showed that there is a higher temperature for cities that found near to the equator (Latitude 0), however, when we go farther from the equator towards the north the temperature decreases highly. However, when we go to the south the temperature decreases but it is much lower comparing to the north. The regression analysis and plot also showed that there is a strong negative correlation between temperature, and latitude in the northern hemisphere however, the correlation between temperature and latitude in the south Hemisphere is negative but very week to conclude.
+
+The findings from the data, plots, and the regression line in the case of testing if there is a relation between humidity and cloudiness of cities nearer or farther to the equator (latitude 0) doesn't show any significant results. The correlation between humidity and latitude for both northern and southern hemisphere cities is very week, a negative correlation, and the result for cloudiness and latitude also very week and negative. Therefore, We can infer that humidity can be fairly distributed in both northern and southern hemisphere cities regardless of their distance from the equator.
+
+The finding from the analysis of the relationship between wind speed (mph), and latitude showed that the lower wind speed when the cities closer to the equater (latitude 0), and somehow the wind speed increase for the cities farther from the equater. The regression analysis also showed that there is a very week, posetive correlation between Wind Speed (mph (%) and Latitude in the Northern Hemisphere cities.
+
+In the second task VacationPy, I understand that creating an exploratory-interactive geospatial, Weather information, heat maps, and visualization through Google API, and other similar API applications play a remarkable role to exploit the potential socio-economic value buried inside monotonously large datasets.
+
